@@ -1,0 +1,40 @@
+FormWeaver
+Copyright 2024 FormWeaver Contributors
+
+This project (FormWeaver) is licensed under the GNU Affero General Public License, Version 3.0.
+A copy of the license can be found in the LICENSE file.
+
+---
+
+ATTRIBUTION AND DERIVATION NOTICE
+
+This project contains code derived from the PlainMerge project.
+- Original Project: PlainMerge (https://github.com/plainmerge/plainmerge)
+- Original License: AGPL-3.0
+- Original Copyright: Copyright (c) PlainMerge Contributors
+
+Key derived components in FormWeaver include:
+- Canvas state management methodology
+- Fabric.js integration patterns
+- Multi-page PDF handling approach
+- Coordinate system calculations
+- Field placement algorithms
+
+In accordance with the AGPL-3.0 license and as permitted by its Section 7,
+all users, modifiers, and distributors of this software must maintain proper
+attribution to both the original PlainMerge project and the FormWeaver
+contributors in derivative works.
+
+---
+
+THIRD-PARTY DEPENDENCIES
+
+This project also uses the following open source libraries:
+- Fabric.js (MIT License)
+- PDF.js (Apache 2.0)
+- pdf-lib (MIT License)
+- React/Next.js (MIT License)
+- JSZip (MIT/GPL License)
+- QRCode.js (MIT License)
+
+For complete dependency licensing information, see package.json and node_modules.
