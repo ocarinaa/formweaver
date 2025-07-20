@@ -2,7 +2,7 @@
 
 **A 100% client-side web application that merges data from Excel files into PDF templates**
 
-> **Note:** FormWeaver is derived from [PlainMerge](https://github.com/plainmerge/plainmerge) and adapted for web browsers. This project is licensed under AGPL-3.0 to maintain compatibility with PlainMerge's licensing.
+> **Note:** FormWeaver is derived from [PlainMerge](https://github.com/plainlab/plainmerge) and adapted for web browsers. This project is licensed under AGPL-3.0 to maintain compatibility with PlainMerge's licensing.
 
 FormWeaver provides a secure, private, and user-friendly solution for repetitive document generation tasks without requiring server-side data processing. All file processing happens entirely in your browser.
 
