@@ -1,0 +1,49 @@
+{
+  "name": "formweaver-final",
+  "version": "0.1.0",
+  "private": false,
+  "license": "MIT",
+  "description": "A 100% client-side web application that merges data from Excel files into PDF templates",
+  "keywords": ["pdf", "excel", "merge", "client-side", "privacy", "forms", "documents"],
+  "author": "FormWeaver Contributors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/formweaver.git"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "node -e \"const fs=require('fs'),https=require('https'),path=require('path');const fonts=[['Inter-Regular.ttf','https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hiA.ttf'],['Roboto-Regular.ttf','https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.ttf']];const dir=path.join('public','fonts');fs.mkdirSync(dir,{recursive:true});fonts.forEach(([n,u])=>{const p=path.join(dir,n);if(!fs.existsSync(p)){https.get(u,r=>r.pipe(fs.createWriteStream(p)));console.log('📥',n);}else console.log('✅',n,'zaten mevcut');});'Font indirme başlatıldı'\""
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@pdf-lib/fontkit": "^1.1.1",
+    "fabric": "^5.3.0",
+    "jszip": "^3.10.1",
+    "next": "14.2.3",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "3.11.174",
+    "qrcode": "^1.5.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-sizeme": "^3.0.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "@types/fabric": "^5.3.7",
+    "@types/node": "^20",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/xlsx": "^0.0.35",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5"
+  }
+}
