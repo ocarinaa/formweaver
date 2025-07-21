@@ -1,7 +1,5 @@
 # FormWeaver
 
-# FormWeaver
-
 **[🚀 Launch FormWeaver Live!](https://formweaver.vercel.app)**
 
 ![FormWeaver Demo](assets/demo.gif)
