@@ -25,7 +25,7 @@ This project builds upon the excellent foundation provided by **PlainMerge**, ad
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/umur957/formweaver.git
+git clone https://github.com/ocarinaa/formweaver.git
 
 2. Navigate into the project directory:
 ```bash
